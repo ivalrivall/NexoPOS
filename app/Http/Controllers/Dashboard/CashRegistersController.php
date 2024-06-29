@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Beanhouseval Controller
  *
  * @since  1.0
  **/

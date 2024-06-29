@@ -77,7 +77,7 @@ class OrdersService
     }
 
     /**
-     * Create an order on NexoPOS.
+     * Create an order on Beanhouseval.
      *
      * @param  array      $fields
      * @param  Order|null $order  (optional)

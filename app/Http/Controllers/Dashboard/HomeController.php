@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Beanhouseval Controller
  *
  * @since  1.0
  **/
@@ -18,7 +18,7 @@ class HomeController extends DashboardController
         return View::make( 'welcome', [
             'title' => sprintf(
                 __( 'Welcome &mdash; %s' ),
-                ns()->option->get( 'ns_store_name', 'NexoPOS ' . config( 'nexopos.version' ) )
+                ns()->option->get( 'ns_store_name', config('app.name') . ' ' . config( 'nexopos.version' ) )
             ),
         ] );
     }

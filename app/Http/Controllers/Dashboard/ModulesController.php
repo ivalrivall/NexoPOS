@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Beanhouseval Controller
  *
  * @since  1.0
  **/
@@ -130,7 +130,7 @@ class ModulesController extends DashboardController
     {
         return View::make( 'pages.dashboard.modules.upload', [
             'title' => __( 'Upload A Module' ),
-            'description' => __( 'Extends NexoPOS features with some new modules.' ),
+            'description' => __( 'Extends '.config('app.name').' features with some new modules.' ),
         ] );
     }
 

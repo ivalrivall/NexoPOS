@@ -991,7 +991,7 @@ class TransactionService
             ];
         } else {
             $warningMessage = sprintf(
-                __( 'Some transactions are disabled as NexoPOS is not able to <a target="_blank" href="%s">perform asynchronous requests</a>.' ),
+                __( 'Some transactions are disabled as '.config('app.name').' is not able to <a target="_blank" href="%s">perform asynchronous requests</a>.' ),
                 'https://my.nexopos.com/en/documentation/troubleshooting/workers-or-async-requests-disabled'
             );
         }

@@ -45,7 +45,7 @@ if ( Auth::check() && Auth::user()->attribute instanceof UserAttribute ) {
         window.nsExtraComponents     =   new Object;
 
         /**
-         * describe a global NexoPOS object
+         * describe a global Beanhouseval object
          * @param {object} ns
          */
         window.ns =   { nsExtraComponents };

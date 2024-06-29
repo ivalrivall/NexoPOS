@@ -6,7 +6,7 @@ return [
      *  Version
      * --------------------------------------------------------------------
      *
-     * This is the core version of NexoPOS. This is used to displays on the
+     * This is the core version of Beanhouseval. This is used to displays on the
      * dashboard and to ensure a compatibility with the modules.
      */
     'version' => '5.2.5',
@@ -16,22 +16,13 @@ return [
      *  Supported Languages
      * --------------------------------------------------------------------
      *
-     * Describes all the languages that are supported by NexoPOS.
+     * Describes all the languages that are supported by Beanhouseval.
      * If the language is not supported or if there is no valid translation
      * every localization functions will return the original string
      */
     'languages' => [
         'en' => 'English',
-        'de' => 'Deutsch',
-        'fr' => 'Français',
-        'es' => 'Espanol',
-        'it' => 'Italian',
-        'ar' => 'Arabic',
-        'pt' => 'Portuguese',
-        'tr' => 'Türkçe',
-        'km' => 'ភាសាខ្មែរ',
-        'vi' => 'Vietnamese',
-        'sq' => 'Shqiptare',
+        'id' => 'Indonesia'
     ],
 
     /**

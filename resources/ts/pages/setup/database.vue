@@ -4,7 +4,7 @@
             <div class="border-b pb-4 mb-4">
                 <div v-if="isMySQL">
                     <h3 class="font-bold text-lg">{{ __( 'MySQL is selected as database driver' ) }}</h3>
-                    <p>{{ __( 'Please provide the credentials to ensure NexoPOS can connect to the database.' ) }}</p>
+                    <p>{{ __( 'Please provide the credentials to ensure Beanhouseval can connect to the database.' ) }}</p>
                 </div>
                 <div v-if="isSqlite">
                     <h3 class="font-bold text-lg">{{ __( 'Sqlite is selected as database driver' ) }}</h3>

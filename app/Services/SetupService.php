@@ -164,7 +164,7 @@ class SetupService
         ] );
 
         /**
-         * NexoPOS uses Sanctum, we're making sure to publish the package.
+         * Beanhouseval uses Sanctum, we're making sure to publish the package.
          */
         Artisan::call( 'vendor:publish', [
             '--force' => true,
@@ -241,7 +241,7 @@ class SetupService
 
         return [
             'status' => 'success',
-            'message' => __( 'NexoPOS has been successfully installed.' ),
+            'message' => __( config('app.name').' has been successfully installed.' ),
         ];
     }
 
